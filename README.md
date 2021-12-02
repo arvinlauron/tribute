@@ -1,2 +1,6 @@
 # tribute
-This our tribute project
+Welcome to our Michael Jordan Tribute
+
+Authors:
+Arvin Lauron
+Jayson Gepayo
