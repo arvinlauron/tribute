@@ -1,0 +1,157 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.max-width{
+	max-width: 1300px;
+	padding: 0 80px;
+	margin: auto;
+}
+
+/*Style for Navigation Section*/
+.navbar{
+	position: fixed;
+	width: 100%;
+	background: darkred;
+	font-family: 'Montserrat', sans-serif;
+	padding: 15px 0px;
+	z-index: 1;
+
+}
+
+.navbar .menu li{
+	list-style: none;
+	display: inline-block;
+
+
+}
+.navbar .menu li a{
+	display: block;
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: 30px;
+	transition: all 0.3s linear;
+}
+
+.navbar .menu li a:hover{
+	color: black;
+}
+
+.banner{
+	display: flex;
+	background:url("image/bg.jpg") no-repeat center;
+	height: 100vh;
+	color: red;
+	min-height: 500px;
+	max-height: 1080px;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'montserrat', sans-serif;
+}
+.banner .max-width{
+	margin: auto 0 auto 30px;
+}
+.banner .banner-content .text1{
+	font-size: 50px;
+	font-weight: 700;
+}
+.banner .banner-content .text2{
+	font-size: 30px;
+	font-weight: 700;
+}
+.banner .banner-content .text3{
+	font-size: 50px;
+	font-weight: 700;
+	margin-left: -3px;
+	padding: 5px 15px 5px 15px;
+	background: black;
+	color: white;
+	border-radius: 5px;
+}
+
+/* ABOUT SECTION */
+section{
+
+	padding: 60px 0;
+
+}
+.about{
+	font-family: montserrat, sans-serif;
+	background-color: floralwhite;
+}
+
+.about .about-content{
+	padding: 10px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.about .title{
+	text-align: center;
+	padding-bottom: 30px;
+	font-size: 28pt;
+
+}
+.about .about-content table
+{
+	margin-bottom: 30px;
+}
+
+
+.about .about-content h2{
+	color: darkred;
+}
+.about .about-content .column-left{
+	padding: 5px;
+	width: 70%;
+}
+.about .about-content .column-left article{
+	justify-content: space-between;
+	text-align: justify;
+}
+.about .earlylife-pic, .proyears-pic{
+	width: 30%;
+}
+.about .earlylife-pic img{
+	padding: 20px;
+	width: 70%;
+}
+.about .about-content .proyears-pic img{
+	padding: 20px;
+	width:70%;
+}
+
+.about .about-content .retirement
+{
+	margin-bottom: 0px;
+
+}
+
+
+/*reference Section*/
+.reference{
+	font-family: montserrat, sans-serif;
+	background-color: black;
+	opacity: 85%;
+	padding: 20px;
+	height: 10em;
+}
+
+.reference .reference-content{
+	color: white;
+}
+.reference .reference-content h2
+{
+	margin-bottom: 10px;
+}
+.reference .reference-content a{
+	color: white;
+	padding: 20px;
+}
+.reference .reference-content a:hover{
+	text-decoration: underline;
+}
