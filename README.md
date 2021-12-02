@@ -2,5 +2,4 @@
 Welcome to our Michael Jordan Tribute
 
 Authors:
-Arvin Lauron
-Jayson Gepayo
+Arvin Lauron & Jayson Gepayo
