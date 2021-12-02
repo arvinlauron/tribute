@@ -95,15 +95,11 @@ section{
 	padding-bottom: 30px;
 	font-family: 'Basketball', sans-serif;
 	font-size: 5em;
-    color: red;
-
+    color: darkred;
+	
 }
 
-.about .subtitle{
-    text-align: center;
-    font-family: 'Allura';
-    font-size: 2em;
-}
+
 .about .about-content table
 {
 	margin-bottom: 30px;
